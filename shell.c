@@ -6,7 +6,7 @@
 
 void exit_command(void)
 {
-	exit(EXIT_SUCCESS);
+	exit(0);
 }
 
 /**
