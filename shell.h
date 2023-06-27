@@ -31,6 +31,16 @@ void execute_command(const char *command_path, char *const args[]);
 void hand_command(char *command);
 
 /*task 3*/
-char *chaeck_command_path(const char *command);
+char *check_command_path(const char *command);
+
+/*task 4*/
+void exit_command(void);
+
+/*task 5*/
+extern char **environ;
+void env_command(void);
+
+/*task 6*/
+ssize_t custom_getline(char **line);
 
 #endif

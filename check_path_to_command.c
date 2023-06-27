@@ -27,17 +27,14 @@ char *check_command_path(const char *command)
 	}
 
 	tok = strtok(pathcopy, ":");
-
 	if (access(command, X_OK) != -1)
 	{
 		free(pathcopy);
 		return (my_strdup(command));
 	}
-
 	while (tok)
 	{
 		my_strcpy(command_path, tok);
-
 		append_string(command_path, "/",
 				sizeof(command_path));
 		append_string(command_path, command,
