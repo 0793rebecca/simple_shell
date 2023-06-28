@@ -46,4 +46,3 @@ ssize_t custom_getline(char **line)
 		}
 	}
 }
-
