@@ -1,3 +1,3 @@
-Building a simple shell to run and execute shell commands
+Building a simple shellto run and execute shell commands
 
 Simple Shell Project
